@@ -1,0 +1,89 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+,",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "shift+alt+cmd+v",
+        "command": "markdown.showPreview",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+v",
+        "command": "-markdown.showPreview",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+home",
+        "command": "workbench.action.terminal.scrollToTop",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+home",
+        "command": "-workbench.action.terminal.scrollToTop",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+=",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "alt+cmd+-",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "home",
+        "command": "-cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+cmd+s",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+cmd+s",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "shift+cmd+v",
+        "command": "-quicktype.pasteJSONAsTypesAndSerialization",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+v",
+        "command": "-markdown.showPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+cmd+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "alt+cmd+s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "cmd+s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "cmd+s",
+        "command": "-workbench.action.files.save"
+    }
+]

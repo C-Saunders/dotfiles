@@ -1,0 +1,54 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "javascript.validate.enable": false,
+    "editor.tabSize": 2,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "[rust]": {
+        "editor.tabSize": 4
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "editor.dragAndDrop": false,
+    "editor.emptySelectionClipboard": false,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "DarkOrange",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "workbench.colorTheme": "Quiet Light",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": false,
+    "terminal.integrated.rendererType": "dom",
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.external.osxExec": "iTerm.app",
+    "sync.gist": "d0297a92ec71588efb9056bcb0227bce",
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "green",
+        "background": "#e4ede6",
+        "type": "text-and-comment"
+    },
+    "editor.multiCursorPaste": "full",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.userWords": [
+        "upsert"
+    ]
+}
