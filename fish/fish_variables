@@ -7,6 +7,7 @@ SETUVAR __fish_init_1_50_0:\x1d
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
+SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr__2E_2E_:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_c_2E_:code\x20\x2e
 SETUVAR _fish_abbr_cat:bat
@@ -41,6 +42,7 @@ SETUVAR fish_color_error:ff0000
 SETUVAR fish_color_escape:cyan
 SETUVAR fish_color_history_current:cyan
 SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
 SETUVAR fish_color_match:cyan
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:cyan
@@ -58,5 +60,6 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:555\x1eyellow
 SETUVAR fish_pager_color_prefix:cyan
 SETUVAR fish_pager_color_progress:cyan
+SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_abbreviations:set\x20com\x20git\x20checkout\x20master\x1egp\x20git\x20pull\x1ec\x2e\x20code\x20\x2e\x1eco\x20git\x20checkout\x1egs\x20git\x20status\x1edse\x20\x7e/Sites/rust/days_between/target/release/days_between\x2019700101\x1egd\x20git\x20diff\x1egl\x20git\x20log\x1ell\x20exa\x20\x2dlah\x1e\x2e\x2e\x20cd\x20\x2e\x2e\x1egb\x20git\x20branch\x1els\x20exa\x20\x2da\x1ecat\x20bat\x1ehist\x20history\x20\x7c\x20rg
-SETUVAR fish_user_paths:/Users/charlie/\x2ecargo/bin\x1e/Users/charlessaunders/\x2eyarn/bin\x1e/Users/charlessaunders/\x2eyarn/bin\x1e/Users/charlessaunders/\x2eyarn/bin\x1e/Users/charlessaunders/\x2eyarn/bin
+SETUVAR fish_user_paths:/Users/charlie/\x2ecargo/bin\x1e/Users/charlessaunders/\x2eyarn/bin
