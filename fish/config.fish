@@ -37,3 +37,7 @@ abbr -a -U -- gl 'git log'
 abbr -a -U -- gaa 'git add -A'
 abbr -a -U -- gs 'git status'
 abbr -a -U -- co 'git checkout'
+
+## kube
+abbr -a -U -- kctl 'kubectl'
+abbr -a -U -- kctx 'kubectx'
