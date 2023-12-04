@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export IPYTHONDIR:\x7e/\x2econfig/ipython
 SETUVAR JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_162\x2ejdk/Contents/Home
 SETUVAR --export PATH:/usr/local/bin\x1e/usr/bin\x1e/bin\x1e/usr/sbin\x1e/sbin\x1e/Users/charlie/\x2ecargo/bin/
 SETUVAR __fish_classic_git_prompt_initialized:\x1d
@@ -10,11 +11,9 @@ SETUVAR __fish_init_3_x:\x1d
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr__2E_2E_:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_c_2E_:code\x20\x2e
-SETUVAR _fish_abbr_cat:bat
 SETUVAR _fish_abbr_co:git\x20checkout
 SETUVAR _fish_abbr_coma:git\x20checkout\x20master
 SETUVAR _fish_abbr_desk:cd\x20\x7e/Desktop
-SETUVAR _fish_abbr_dev:cd\x20\x7e/dev/
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gaa:git\x20add\x20\x2dA
 SETUVAR _fish_abbr_gb:git\x20branch
