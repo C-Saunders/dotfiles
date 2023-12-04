@@ -1,6 +1,8 @@
 set -g fish_user_paths "/usr/local/opt/openssl@1.1/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/sqlite/bin" $fish_user_paths
 
+fish_add_path "$HOME/.local/bin"
+
 # only correct for m1 Macs
 fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/sbin
