@@ -3,6 +3,7 @@
 SETUVAR --export IPYTHONDIR:\x7e/\x2econfig/ipython
 SETUVAR JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e8\x2e0_162\x2ejdk/Contents/Home
 SETUVAR --export PATH:/usr/local/bin\x1e/usr/bin\x1e/bin\x1e/usr/sbin\x1e/sbin\x1e/Users/charlie/\x2ecargo/bin/
+SETUVAR --export PSPG_CONF:/Users/charles/\x2econfig/\x2epspg_conf
 SETUVAR __fish_classic_git_prompt_initialized:\x1d
 SETUVAR __fish_init_1_50_0:\x1d
 SETUVAR __fish_init_2_39_8:\x1d

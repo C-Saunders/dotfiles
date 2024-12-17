@@ -16,6 +16,7 @@ set --export --prepend PATH "/Users/charliesaunders/.rd/bin"
 
 direnv hook fish | source
 set -Ux IPYTHONDIR "~/.config/ipython"
+set -Ux PSPG_CONF /Users/charles/.config/.pspg_conf
 
 # Abbreviations
 ## change directory
