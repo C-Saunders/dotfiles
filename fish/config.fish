@@ -15,6 +15,9 @@ direnv hook fish | source
 set -Ux IPYTHONDIR "~/.config/ipython"
 set -Ux PSPG_CONF /Users/charles/.config/.pspg_conf
 
+source (pyenv init - | psub)
+source (pyenv virtualenv init - | psub)
+
 # Abbreviations
 ## change directory
 abbr -a -- home 'cd ~'
