@@ -7,9 +7,6 @@ fish_add_path "$HOME/.local/bin"
 fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/sbin
 
-# Poetry
-fish_add_path /Users/charles/.local/bin
-
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 set --export --prepend PATH "/Users/charliesaunders/.rd/bin"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
