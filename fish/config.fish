@@ -12,6 +12,7 @@ set --export --prepend PATH "/Users/charliesaunders/.rd/bin"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 direnv hook fish | source
+zoxide init fish | source
 set -Ux IPYTHONDIR "~/.config/ipython"
 set -Ux PSPG_CONF /Users/charles/.config/.pspg_conf
 
