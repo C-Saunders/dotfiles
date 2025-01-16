@@ -8,7 +8,7 @@ fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/sbin
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-set --export --prepend PATH "/Users/charliesaunders/.rd/bin"
+set --export --prepend PATH "/Users/charles/.rd/bin"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 direnv hook fish | source
@@ -51,5 +51,12 @@ abbr -a -- co 'git checkout'
 ## kube
 abbr -a -- kctl 'kubectl'
 
-# aws
+## aws
 abbr -a -- aws-login 'aws sso login --sso-session datavant'
+
+## Terraform
+abbr -a -- tf 'terraform'
+
+## DBs
+abbr -a -- proddb 'kubectl --context snuffleupagus-prod port-forward -n intake service/orders-api-db-proxy 15432:5432'
+abbr -a -- stgdb 'kubectl --context snuffleupagus-staging port-forward -n intake service/orders-api-db-proxy 15433:5432'
